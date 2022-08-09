@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.kindsonthegenius.fleetms.models.State;
-import com.kindsonthegenius.fleetms.services.CountryService;
-import com.kindsonthegenius.fleetms.services.StateService;
+import com.theprocess.carApp.models.State;
+import com.theprocess.carApp.services.CountryService;
+import com.theprocess.carApp.services.StateService;
 
 @Controller
 public class StateController {

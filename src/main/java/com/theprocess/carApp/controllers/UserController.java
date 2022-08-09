@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.kindsonthegenius.fleetms.models.User;
-import com.kindsonthegenius.fleetms.services.UserService;
-import com.kindsonthegenius.fleetms.services.CountryService;
-import com.kindsonthegenius.fleetms.services.UserService;
+import com.theprocess.carApp.models.User;
+import com.theprocess.carApp.services.UserService;
+import com.theprocess.carApp.services.CountryService;
+import com.theprocess.carApp.services.UserService;
 
 @Controller
 public class UserController {

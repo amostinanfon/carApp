@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.kindsonthegenius.fleetms.models.VehicleType;
-import com.kindsonthegenius.fleetms.services.VehicleTypeService;
+import com.theprocess.carApp.models.VehicleType;
+import com.theprocess.carApp.services.VehicleTypeService;
 
 @Controller
 public class VehicleTypeController {

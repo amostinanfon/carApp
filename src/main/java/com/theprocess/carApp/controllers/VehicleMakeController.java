@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.kindsonthegenius.fleetms.models.VehicleMake;
-import com.kindsonthegenius.fleetms.services.VehicleMakeService;
+import com.theprocess.carApp.models.VehicleMake;
+import com.theprocess.carApp.services.VehicleMakeService;
 
 @Controller
 public class VehicleMakeController {

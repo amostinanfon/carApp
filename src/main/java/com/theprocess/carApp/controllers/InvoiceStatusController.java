@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.kindsonthegenius.fleetms.models.InvoiceStatus;
-import com.kindsonthegenius.fleetms.services.InvoiceStatusService;
+import com.theprocess.carApp.models.InvoiceStatus;
+import com.theprocess.carApp.services.InvoiceStatusService;
 
 @Controller
 public class InvoiceStatusController {

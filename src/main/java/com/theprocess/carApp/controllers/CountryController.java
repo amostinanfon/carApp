@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.kindsonthegenius.fleetms.models.Country;
-import com.kindsonthegenius.fleetms.services.CountryService;
+import com.theprocess.carApp.models.Country;
+import com.theprocess.carApp.services.CountryService;
 
 @Controller
 public class CountryController {

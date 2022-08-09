@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.kindsonthegenius.fleetms.models.Contact;
-import com.kindsonthegenius.fleetms.services.ContactService;
-import com.kindsonthegenius.fleetms.services.CountryService;
-import com.kindsonthegenius.fleetms.services.EmployeeTypeService;
-import com.kindsonthegenius.fleetms.services.JobTitleService;
-import com.kindsonthegenius.fleetms.services.StateService;
+import com.theprocess.carApp.models.Contact;
+import com.theprocess.carApp.services.ContactService;
+import com.theprocess.carApp.services.CountryService;
+import com.theprocess.carApp.services.EmployeeTypeService;
+import com.theprocess.carApp.services.JobTitleService;
+import com.theprocess.carApp.services.StateService;
 
 @Controller
 public class ContactController {

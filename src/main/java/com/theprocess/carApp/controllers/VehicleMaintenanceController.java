@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.kindsonthegenius.fleetms.models.VehicleMaintenance;
-import com.kindsonthegenius.fleetms.services.SupplierService;
-import com.kindsonthegenius.fleetms.services.VehicleMaintenanceService;
-import com.kindsonthegenius.fleetms.services.VehicleService;
+import com.theprocess.carApp.models.VehicleMaintenance;
+import com.theprocess.carApp.services.SupplierService;
+import com.theprocess.carApp.services.VehicleMaintenanceService;
+import com.theprocess.carApp.services.VehicleService;
 
 @Controller
 public class VehicleMaintenanceController {
